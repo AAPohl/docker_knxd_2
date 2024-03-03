@@ -17,6 +17,6 @@ jobs:
     - name: Run knxd Container
       run: |
         pwd
-        docker container knxd:latest
+        docker container run knxd:latest
       timeout-minutes: 1
       continue-on-error: true
